@@ -1,0 +1,5 @@
+# 개인 로컬 설정 (공개 저장소에 올리지 않음)
+.claude/settings.local.json
+
+node_modules
+dist
