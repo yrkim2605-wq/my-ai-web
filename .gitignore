@@ -1,5 +1,29 @@
-# 개인 로컬 설정 (공개 저장소에 올리지 않음)
-.claude/settings.local.json
+# 1. MCP 설정 파일
+.mcp.json
 
-node_modules
-dist
+# 2. Claude 로컬 설정
+.claude/
+
+# 3. Node.js 관련
+node_modules/
+package-lock.json
+
+# 4. 캐시 파일
+.cache/
+.vite/
+dist/
+
+# 5. 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 6. OS/IDE 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 7. 로그 파일
+*.log
+npm-debug.log*
